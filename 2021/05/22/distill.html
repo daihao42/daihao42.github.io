@@ -3,6 +3,14 @@
   <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">    <!-- Metadata, OpenGraph and Schema.org -->
     
+    <!-- Website verification -->
+    <meta name="google-site-verification" content="">
+<meta name="msvalidate.01" content="">
+<!-- Avoid warning on Google Chrome
+        Error with Permissions-Policy header: Origin trial controlled feature not enabled: 'interest-cohort'.
+        see https://stackoverflow.com/a/75119417
+    -->
+    <meta http-equiv="Permissions-Policy" content="interest-cohort=()">
 
     <!-- Standard metadata -->
     <meta charset="utf-8">
@@ -35,7 +43,7 @@
     <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%F0%9F%93%B7&lt;/text&gt;&lt;/svg&gt;">
     
     <link rel="stylesheet" href="/assets/css/main.css?d41d8cd98f00b204e9800998ecf8427e">
-    <link rel="canonical" href="http://0.0.0.0:4000/2021/05/22/distill.html">
+    <link rel="canonical" href="http://localhost:4000/2021/05/22/distill.html">
 
     <!-- Dark Mode -->
     
@@ -532,7 +540,14 @@ This line is only separated by a single newline, so it’s a separate line in th
   <!-- <script src="/assets/js/mdb.min.js"></script> -->
   <script src="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/js/mdb.min.js" integrity="sha256-NdbiivsvWt7VYCt6hYNT3h/th9vSTL4EDWeGs5SN3DA=" crossorigin="anonymous"></script>
 
-    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-6QPFLRCVN0"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){ window.dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-6QPFLRCVN0');
+  </script>
     
 
 <!-- Scrolling Progress Bar -->
